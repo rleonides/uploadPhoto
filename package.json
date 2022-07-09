@@ -30,7 +30,7 @@
     "urijs": "1.18.2"
   },
   "scripts": {
-    "start": "nodemon server",
+    "start": "nodemon photoServer",
     "e2e": "nightwatch",
     "run-e2e": "concurrently -k \"npm start\" \"npm run e2e\"",
     "server": "babel-node start-server.js",
